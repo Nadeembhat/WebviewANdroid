@@ -1,6 +1,5 @@
-package in.stc.ievincecms;
+package in.ernadeembhat.webview;
 
-import android.content.Context;
 import android.content.SharedPreferences;
 
 public class CMSPreferenceManager{
