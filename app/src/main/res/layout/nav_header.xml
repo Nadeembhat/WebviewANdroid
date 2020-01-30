@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="30dp"
+    android:orientation="vertical"
+    android:background="#80c64a"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+
+    <!--Layout for all items vertically-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <!--Linear Layout for text and button-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!--EDITTEXT Linear Layout-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left">
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/enter_web_url"
+                    android:textSize="30sp"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:textColor="#FFFFFF"
+                    android:id="@+id/urlEdit"
+                    />
+            </LinearLayout>
+            <!--Buttons Linear Layout-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+                <androidx.appcompat.widget.AppCompatButton
+                    android:text="@string/submit_url"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:id="@+id/submit"
+                    android:background="#FFFFFF"
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <!--Buton LL CLOSED-->
+
+        </LinearLayout>
+        <!--TEXT and Buton LL CLOSED-->
+
+    </LinearLayout>
+    <!--All Items LL CLOSED-->
+
+</LinearLayout>
+    <!--MAIN LL CLOSED-->
