@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="in.stc.ievincecms">
+    package="in.ernadeembhat.webview">
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission
         android:name="android.permission.CLEAR_APP_CACHE"
@@ -24,7 +24,7 @@
         android:roundIcon="@mipmap/launcher_icon_logo"
         android:supportsRtl="true"
         android:theme="@style/AppTheme.Fullscreen">
-        <activity android:name=".Splash"
+        <activity android:name="in.ernadeembhat.webview.Splash"
             android:noHistory="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -32,10 +32,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".UrlFragment"
+        <activity android:name="in.ernadeembhat.webview.UrlFragment"
             android:noHistory="true"
             android:windowSoftInputMode="stateVisible|adjustResize"/>
-        <activity android:name=".MainActivity"
+        <activity android:name="in.ernadeembhat.webview.MainActivity"
             android:noHistory="true"
             android:windowSoftInputMode="stateAlwaysHidden"/>
     </application>
